@@ -6,54 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PixLore - Unveiling Visual Narratives</title>
-    <!-- Google Fonts for Prettier Font -->
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- External CSS Stylesheet Link -->
+
     <link rel="stylesheet" href="styles.css">
-    <!-- Any additional stylesheets, scripts, or libraries can be added here -->
-<style>
-    body {
-        font-family: 'Lato', sans-serif;
-        text-align: center;
-        margin: 2em;
-    }
 
-    h1, h2 {
-        color: #333;
-    }
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+            line-height: 1.5;
+        }
 
-    .example img {
-        height: 300px;
-        width: auto;
-        margin-top: 2em;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    }
+        header, section, footer {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
 
-    .captions {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 1em;
-    }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
 
-    .captions div {
-        flex: 1;
-        margin: 0 0.5em;
-    }
+        h1 {
+            font-size: 2.5em;
+            color: #2C3E50;
+        }
 
-    /* Divider styles */
-    hr {
-        margin: 3em 0; /* Increased space above and below the divider */
-        border: 0;
-        border-top: 1px solid #eee;
-    }
+        h2 {
+            font-size: 2em;
+            margin-top: 1em;
+            border-bottom: 2px solid #3498DB;
+            display: inline-block;
+        }
 
-    /* Increase space between sections */
-    section {
-        margin-bottom: 4em; 
-    }
+        p {
+            margin-top: 1em;
+        }
 
-</style>
+        /* Examples Style */
+        .example img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .captions {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 1em;
+        }
+
+        .captions div {
+            flex: 1;
+            min-width: 180px;
+            margin: 0.5em;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Divider */
+        hr {
+            margin: 3em 0;
+            border: 0;
+            border-top: 2px solid #ecf0f1;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #2C3E50;
+            color: #ecf0f1;
+        }
+    </style>
 </head>
 
 <body>
