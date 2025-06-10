@@ -1,4 +1,7 @@
 # PixLore
+
+[![arXiv](https://img.shields.io/badge/arXiv-2312.05349-b31b1b.svg)](https://arxiv.org/abs/2312.05349)
+
 Welcome to the repository of our state-of-the-art image captioning model. We have combined the strengths of the BLIP-2 (Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models) model with LoRa (Low-Rank Adaptation of Large Language Models) to create an effective and precise image captioning tool.  Our dataset, rich in image descriptions, has been automatically labeled using a combination of multi-modal models.
 
 ## Results
